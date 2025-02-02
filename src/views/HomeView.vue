@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+interface Todo {
+  value: string
+  done?: boolean
+}
+const Todo = null
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <input type="text">
+    <div>
+
+    </div>
   </main>
 </template>
